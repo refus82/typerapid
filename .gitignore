@@ -1,0 +1,17 @@
+target/
+*.class
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+
+# Claude Code — keep entirely out of the repo
+.claude/
+CLAUDE.md

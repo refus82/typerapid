@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Shortcut for: java -cp target/classes com.typerapid.cli.DriftTui "$@"
+set -euo pipefail
+cd "$(dirname "$0")/.."
+exec java -cp target/classes com.typerapid.cli.DriftTui "$@"
